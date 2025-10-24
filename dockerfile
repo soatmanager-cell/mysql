@@ -9,6 +9,3 @@ ENV MYSQL_PASSWORD=root
 
 # Exponemos el puerto 3306 para permitir conexiones externas
 EXPOSE 3306
-
-# Comando para ejecutar el contenedor de MySQL
-CMD ["mysqld"]
